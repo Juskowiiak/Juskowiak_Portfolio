@@ -1,0 +1,15 @@
+:root {
+  --dark-blue1: rgb(4, 7, 13);
+  --dark-blue2: rgb(16, 19, 28);
+  --dark-blue3: rgb(11, 14, 24);
+
+  --darkblueblack: rgba(8, 9, 10, 0.75);
+
+  --cinza-blue1: rgb(213, 219, 230);
+  --cinza-blue2: rgba(213, 219, 230, 0.7);
+  --cinza-blue3: rgba(184, 199, 217, 0.5);
+  --cinza-blue4: rgba(216, 231, 242, 0.07);
+
+  --letra-1: "Inter", sans-serif;
+  --letra-2: "Instrument Serif", serif;
+}

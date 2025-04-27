@@ -1,0 +1,7 @@
+[
+  { "id": 0, "nome": "Javascript", "pic": "/skills/s1.jpg" },
+  { "id": 1, "nome": "React", "pic": "/skills/s2.png" },
+  { "id": 2, "nome": "Styled Components", "pic": "/skills/s3.png" },
+  { "id": 3, "nome": "Git", "pic": "/skills/s4.png" },
+  { "id": 4, "nome": "Java", "pic": "/skills/s5.png" }
+]

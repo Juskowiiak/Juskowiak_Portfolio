@@ -7,7 +7,6 @@ export const Container = styled.div`
   z-index: 2;
   width: 100%;
   height: 100vh;
-  border: 1px solid red;
   background-color: var(--dark-blue1);
   display: flex;
   flex-direction: column;
@@ -75,7 +74,7 @@ export const HomeTitle = styled.h1`
   font-size: 3.6rem;
   background: linear-gradient(
     360deg,
-    var(--cinza-blue2) 42%,
+    var(--cinza-blue1) 42%,
     var(--dark-blue1) 100%
   );
   background-clip: text;
@@ -85,13 +84,16 @@ export const HomeTitle = styled.h1`
 //________________________________ME__________________________________________
 
 export const Me = styled.div`
+  position: relative;
+  z-index: 2;
   display: flex;
   gap: 1.2rem;
   align-items: center;
-  margin-block: 2rem 4rem;
+  margin-block: 2rem 5rem;
   p {
     font-family: var(--letra-2);
     color: var(--cinza-blue1);
+    font-size: 1.2rem;
   }
 `;
 
@@ -109,7 +111,7 @@ export const Signal = styled.div`
     height: 100%;
     background-color: rgb(232, 236, 243);
     border-radius: 50%;
-    animation: shine 3s infinite forwards ease-in;
+    animation: shine 2s infinite forwards ease-in;
   }
   @keyframes shine {
     0% {
@@ -124,6 +126,8 @@ export const Signal = styled.div`
 //_____________________________________MEDIA_____________________________________
 
 export const Media = styled.ul`
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -139,6 +143,9 @@ export const MediaIcon = styled.li`
     font-size: 1.8rem;
     height: 100%;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &:not(:last-child) {

@@ -13,15 +13,16 @@ import {
 import { FiGithub } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineYoutube } from "react-icons/ai";
-//importar imagem
+//importar media
 import logo from "../../assets/home/logo.png";
+import MainVideo from "../../Components/video";
 
 export default function Home() {
   return (
     <Container>
       <Logobox>
         <Logo>
-          <img src={logo} />
+          <img src={logo} title="Juskowiak-Afonso" />
         </Logo>
       </Logobox>
       <HomeTitle>Desenvolvedor Front-End Junior</HomeTitle>
@@ -46,6 +47,7 @@ export default function Home() {
           </a>
         </MediaIcon>
       </Media>
+      <MainVideo />
     </Container>
   );
 }

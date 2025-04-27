@@ -5,6 +5,7 @@ import Home from "./Containers/Home";
 import Navegador from "./Containers/Navegador";
 import Sobre from "./Containers/Sobre";
 import { BrowserRouter } from "react-router-dom";
+import Projeto from "./Containers/Projeto";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Styleglobal />
@@ -12,6 +13,7 @@ createRoot(document.getElementById("root")).render(
       <Navegador />
       <Home />
       <Sobre />
+      <Projeto />
     </BrowserRouter>
   </StrictMode>
 );

@@ -2,7 +2,7 @@ import styled from "styled-components";
 //importar style
 import "../../Style/style.css";
 
-//criar variaveis ____________________________________
+//___________________________VARIAVEIS____________________________
 const box1 = `
   border: 1px solid rgb(216, 231, 242, 0.2);
   box-shadow: 0px 2px 1px 0px inset rgb(207, 231, 255, 0.2);
@@ -19,7 +19,7 @@ const box2 = `
     );
   `;
 
-//__________________________________________________________
+//________________________CONTAINER__________________________________
 
 export const Container = styled.div`
   position: relative;
@@ -33,7 +33,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 `;
-//_________________________________________________________________
+
+//_______________________________INFO__________________________________
 
 export const Info = styled.div`
   width: 100%;
@@ -42,6 +43,8 @@ export const Info = styled.div`
   display: flex;
   justify-content: space-evenly;
 `;
+
+//_______________________________PICTURE__________________________________
 
 export const Picture = styled.div`
   ${box1}
@@ -103,7 +106,7 @@ export const Photo = styled.div`
   z-index: 1;
   margin-bottom: 1rem;
 `;
-//___________________________________________________________
+//____________________________TEXT__________________________________
 
 export const Text = styled.div`
   ${box1}
@@ -135,7 +138,7 @@ export const About = styled.div`
   }
 `;
 
-//___________________
+//_______________________________SKILL__________________________________
 
 export const Skill = styled.ul`
   display: flex;

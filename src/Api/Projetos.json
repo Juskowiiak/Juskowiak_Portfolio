@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "nome": "LoraneHair",
+    "pic": "/laptop/laptop1.png",
+    "tipo": "pratica"
+  },
+  {
+    "id": 1,
+    "nome": "EldineidaNeves",
+    "pic": "/laptop/laptop2.png",
+    "tipo": "trabalho"
+  },
+  {
+    "id": 2,
+    "nome": "AfonsoTips",
+    "pic": "/laptop/laptop3.png",
+    "tipo": "projeto"
+  },
+  {
+    "id": 3,
+    "nome": "Grandhouse",
+    "pic": "/laptop/laptop4.png",
+    "tipo": "pratica"
+  },
+  {
+    "id": 4,
+    "nome": "Katybraids",
+    "pic": "/laptop/laptop5.png",
+    "tipo": "trabalho"
+  },
+  {
+    "id": 5,
+    "nome": "LaFamilia",
+    "pic": "/laptop/laptop6.png",
+    "tipo": "projeto"
+  },
+  {
+    "id": 6,
+    "nome": "Bibicloset",
+    "pic": "/laptop/laptop7.png",
+    "tipo": "trabalho"
+  },
+  {
+    "id": 7,
+    "nome": "Portfolio",
+    "pic": "/laptop/laptop8.png",
+    "tipo": "pratica"
+  },
+  {
+    "id": 8,
+    "nome": "Titidoçuras",
+    "pic": "/laptop/laptop9.png",
+    "tipo": "trabalho"
+  }
+]

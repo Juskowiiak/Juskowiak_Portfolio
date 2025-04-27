@@ -1,0 +1,5 @@
+[
+  { "id": 0, "tipo": "projeto", "frase": "Alguns projetos " },
+  { "id": 1, "tipo": "trabalho", "frase": "Alguns trabalhos " },
+  { "id": 2, "tipo": "pratica", "frase": "Alguns praticas " }
+]

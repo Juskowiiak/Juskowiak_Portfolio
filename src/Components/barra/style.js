@@ -25,7 +25,7 @@ export const Divisor = styled.div`
   &::before {
     position: absolute;
     content: "";
-    width: 70%;
+    width: 75%;
     height: 3px;
     left: 50%;
     bottom: 0;

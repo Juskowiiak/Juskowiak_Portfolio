@@ -1,0 +1,5 @@
+[
+  { "id": 0, "nome": "Projetos", "tipo": "projeto" },
+  { "id": 1, "nome": "Trabalhos", "tipo": "trabalho" },
+  { "id": 2, "nome": "Praticas", "tipo": "pratica" }
+]

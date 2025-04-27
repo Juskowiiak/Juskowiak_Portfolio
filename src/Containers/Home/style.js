@@ -152,3 +152,18 @@ export const MediaIcon = styled.li`
     border-right: 1px solid var(--cinza-blue3);
   }
 `;
+
+//_____________________________BARRA__________________________________
+
+export const Barra = styled.div`
+  position: absolute;
+  z-index: 3;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  bottom: -10.5vh;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: var(--cinza-blue3);
+  opacity: 0.4;
+`;

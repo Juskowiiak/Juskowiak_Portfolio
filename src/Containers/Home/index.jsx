@@ -1,4 +1,5 @@
 import {
+  Barra,
   Container,
   HomeTitle,
   Logo,
@@ -16,6 +17,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 //importar media
 import logo from "../../assets/home/logo.png";
 import MainVideo from "../../Components/video";
+import { Divisor } from "../../Components/barra/style";
 
 export default function Home() {
   return (
@@ -48,6 +50,7 @@ export default function Home() {
         </MediaIcon>
       </Media>
       <MainVideo />
+      <Barra />
     </Container>
   );
 }

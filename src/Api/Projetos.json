@@ -1,17 +1,24 @@
 [
   {
     "id": 0,
-    "nome": "LoraneHair",
+    "nome": "Loranne",
     "pic": "/laptop/laptop1.png",
     "tipo": "pratica",
     "ano": 2025,
     "estado": "Completo",
+    "cor": "greenyellow",
     "link": "nnehair.netlify.app",
+    "descrição": "Pratica - Criei esta página com intenção de testar a minha criatividade, apenas isso ...",
     "galeria": [
       { "id": 0, "pic": "/projetos/wallpaper/a1.png" },
       { "id": 1, "pic": "/projetos/wallpaper/a2.png" },
       { "id": 2, "pic": "/projetos/wallpaper/a3.png" },
       { "id": 3, "pic": "/projetos/wallpaper/a4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p6.png" },
+      { "id": 2, "pic": "/projetos/logo/p7.png" }
     ]
   },
   {
@@ -21,8 +28,19 @@
     "tipo": "trabalho",
     "ano": 2025,
     "estado": "Em construção",
+    "cor": "yellow",
     "link": "https://tstn.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Negócio - A vida é muito curta para usar roupas chatas, conte com a minha ajuda. ",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/b1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/b2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/b3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/b4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p5.png" }
+    ]
   },
   {
     "id": 2,
@@ -31,8 +49,20 @@
     "tipo": "projeto",
     "ano": 2025,
     "estado": "Em construção",
+    "cor": "yellow",
     "link": "https://afonsotips.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Projeto - Dou algumas dicas(depedendo da area) para aqueles que estão a começar agora.",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/c1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/c2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/c3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/c4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p6.png" },
+      { "id": 2, "pic": "/projetos/logo/p7.png" }
+    ]
   },
   {
     "id": 3,
@@ -41,8 +71,19 @@
     "tipo": "pratica",
     "ano": 2023,
     "estado": "Incompleto",
+    "cor": "grey",
     "link": "https://grandhouse.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Prática - Alugue os melhores quartos aqui, gostei da ideia no inicio, mas depois fiquei exausto.",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/d1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/d2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/d3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/d4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p4.png" }
+    ]
   },
   {
     "id": 4,
@@ -51,8 +92,20 @@
     "tipo": "trabalho",
     "ano": 2025,
     "estado": "Completo",
+    "cor": "greenyellow",
     "link": "https://kattyhair.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Negócio - Cada trança uma nova História, a melhor cabelereira aqui. ",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/e1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/e2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/e3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/e4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p6.png" },
+      { "id": 2, "pic": "/projetos/logo/p7.png" }
+    ]
   },
   {
     "id": 5,
@@ -61,8 +114,20 @@
     "tipo": "projeto",
     "ano": 2025,
     "estado": "Completo",
+    "cor": "greenyellow",
     "link": "https://restaurantlafamilia.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Projeto - Para conclusão do módulo final, teriamos que colocar em prática os conhecimentos adquiridos ao longo do módulo; Restaurante foi o meu tema.",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/f1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/f2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/f3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/f4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p6.png" },
+      { "id": 2, "pic": "/projetos/logo/p7.png" }
+    ]
   },
   {
     "id": 6,
@@ -71,8 +136,20 @@
     "tipo": "trabalho",
     "ano": 2025,
     "estado": "Em construção",
+    "cor": "yellow",
     "link": "https://bibidemo.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Negócio - Façam as suas compras na Bibicloset. ",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/h1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/h2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/h3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/h4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p6.png" },
+      { "id": 2, "pic": "/projetos/logo/p7.png" }
+    ]
   },
   {
     "id": 7,
@@ -81,7 +158,20 @@
     "tipo": "pratica",
     "ano": 2025,
     "estado": "Completo",
-    "galeria": [{}]
+    "cor": "greenyellow",
+    "link": "",
+    "descrição": "Prática - Apenas um esboço do que estava por vir.",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/g1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/g2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/g3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/g4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p6.png" },
+      { "id": 2, "pic": "/projetos/logo/p7.png" }
+    ]
   },
   {
     "id": 8,
@@ -90,8 +180,19 @@
     "tipo": "pratica",
     "ano": 2023,
     "estado": "Incompleto",
+    "cor": "grey",
     "link": "https://copy-insta.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Prática - Queria testar a minhas habilidade com o Javascript DOM.",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/j1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/j2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/j3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/j4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p4.png" }
+    ]
   },
   {
     "id": 9,
@@ -100,8 +201,20 @@
     "tipo": "trabalho",
     "ano": 2023,
     "estado": "Completo",
+    "cor": "greenyellow",
     "link": "https://eurisurpresas.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Negócio - Procuras um presente e não sabes o que oferecer, esta página é pra ti. ",
+    "galeria": [
+      { "id": 0, "pic": "/projetos/wallpaper/i1.png" },
+      { "id": 1, "pic": "/projetos/wallpaper/i2.png" },
+      { "id": 2, "pic": "/projetos/wallpaper/i3.png" },
+      { "id": 3, "pic": "/projetos/wallpaper/i4.png" }
+    ],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p3.png" },
+      { "id": 1, "pic": "/projetos/logo/p6.png" },
+      { "id": 2, "pic": "/projetos/logo/p7.png" }
+    ]
   },
   {
     "id": 10,
@@ -110,7 +223,9 @@
     "tipo": "trabalho",
     "ano": 2024,
     "estado": "Completo",
+    "cor": "greenyellow",
     "link": "https://titidocuras.netlify.app/",
-    "galeria": [{}]
+    "descrição": "Negócio - Não sabes o que estás a perder :D .",
+    "galeria": [{ "id": 0, "pic": "/projetos/wallpaper/k1.png" }]
   }
 ]

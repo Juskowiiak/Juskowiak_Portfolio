@@ -251,7 +251,11 @@ export const TelaCardInfoContainerPicture = styled.div`
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: var(--cinza-blue3);
+    width: 30px;
   }
 `;
 

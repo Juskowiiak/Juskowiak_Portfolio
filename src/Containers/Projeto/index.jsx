@@ -35,12 +35,24 @@ import { Navigation } from "swiper/modules";
 //import icons
 import { IoClose } from "react-icons/io5";
 import { FaFolderOpen } from "react-icons/fa";
+import {
+  Data,
+  Descricao,
+  Linguagem,
+  ProjLink,
+  ProjText,
+  Status,
+  Titulo,
+  Web,
+} from "../../Components/cardInfo/style";
 
 export default function Projeto() {
   //mapear todos os projetos, filtrar objeto selecionado
   const [projetos, setProjetos] = useState(Laptops);
   const [selecionado, setSelecionado] = useState(Laptops);
+  //fechar/abrir card
   const [cardInfo, setCardInfo] = useState(false);
+  //cor cubo status
 
   //trocar categoria pratica/projeto/trabalho
   function recebeOpcao(tipo) {
@@ -116,8 +128,31 @@ export default function Projeto() {
                   </Swiper>
                 </TelaCardInfoContainerPicture>
                 <TelaCardInfoContainerInfo>
-                  <h3 className="project-title">{item.nome}</h3>
-                  <p className="project-type"></p>
+                  <Titulo>{item.nome}</Titulo>
+                  <ProjText>
+                    <Data>
+                      Data:<p>{item.ano}</p>
+                    </Data>
+                    <Status>
+                      Status:
+                      <div className="estado">
+                        <div
+                          className="cubo"
+                          style={{ backgroundColor: item.cor }}
+                        ></div>
+                        <p>{item.estado}</p>
+                      </div>
+                    </Status>
+                    <Descricao>
+                      <p>{item.descrição}</p>
+                    </Descricao>
+                  </ProjText>
+                  <ProjLink>
+                    <Linguagem>
+                      
+                    </Linguagem>
+                    <Web></Web>
+                  </ProjLink>
                 </TelaCardInfoContainerInfo>
               </TelaCardInfoContainer>
             ))}

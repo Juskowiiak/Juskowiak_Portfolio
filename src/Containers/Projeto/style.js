@@ -35,7 +35,7 @@ export const Container = styled.div`
 `;
 
 export const Info = styled.div`
-  width: 80%;
+  width: 90%;
   height: 100%;
   position: relative;
   z-index: 1;
@@ -69,7 +69,7 @@ export const Opcoes = styled.ul`
 
 export const OpcoesCard = styled.li`
   width: 30%;
-  padding-block: 0.5rem;
+  padding-block: 0.75rem;
   color: var(--cinza-blue1);
   font-family: var(--letra-2);
   letter-spacing: 1.15px;
@@ -107,16 +107,6 @@ export const Painel = styled.div`
   position: relative;
 `;
 
-export const Mensg = styled.div`
-  border: 1px solid red;
-  margin-bottom: 2rem;
-  color: var(--cinza-blue1);
-  display: flex;
-  gap: 0.5rem;
-  width: 80%;
-  margin-inline: auto;
-`;
-
 //___________________________________________TELA____________________________________
 
 export const Tela = styled.ul`
@@ -151,8 +141,12 @@ export const TelaCard = styled.ul`
     height: 100%;
     top: 0;
     left: 0;
-    ${box2}
-    opacity:.1;
+    background: radial-gradient(
+      circle,
+      rgba(184, 199, 217, 1) 6%,
+      rgba(4, 7, 13, 1)
+    );
+    opacity: 0.1;
   }
   .picture {
     margin-bottom: 1rem;
@@ -178,4 +172,83 @@ export const TelaCard = styled.ul`
       background-color: var(--cinza-blue3);
     }
   }
+`;
+//___________________________________________TELACard-Info____________________________________
+
+//tela tranparent
+export const TelaCardInfo = styled.div`
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+`;
+
+export const TelaCardInfoContainer = styled.div`
+  border: 1px solid red;
+  height: 460px;
+  transition: 0.5s;
+  width: 85%;
+  position: absolute;
+  z-index: 2;
+  border-radius: 20px;
+  display: flex;
+  padding: 2.5rem 2rem 2rem 2rem;
+  background-color: var(--dark-blue1);
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    ${box2}
+    opacity: 0.1;
+  }
+  .spec {
+    border: 1px solid orange;
+    width: 94%;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    display: flex;
+  }
+`;
+
+//_______________________________CONTAINER PICTURE-INFO______________________________________
+export const TelaCardInfoContainerPicture = styled.div`
+  position: relative;
+  z-index: 2;
+  border: 1px solid yellow;
+  width: 60%;
+  height: 100%;
+  .swiper {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide img {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+`;
+
+//_______________________________CONTAINER TEXT-INFO______________________________________
+export const TelaCardInfoContainerInfo = styled.div`
+  position: relative;
+  z-index: 2;
+  border: 1px solid blue;
+  width: 40%;
+  padding-inline: 1rem;
 `;

@@ -4,6 +4,9 @@
     "nome": "LoraneHair",
     "pic": "/laptop/laptop1.png",
     "tipo": "pratica",
+    "ano": 2025,
+    "estado": "Completo",
+    "link": "nnehair.netlify.app",
     "galeria": [
       { "id": 0, "pic": "/projetos/wallpaper/a1.png" },
       { "id": 1, "pic": "/projetos/wallpaper/a2.png" },
@@ -16,6 +19,9 @@
     "nome": "EldineidaNeves",
     "pic": "/laptop/laptop2.png",
     "tipo": "trabalho",
+    "ano": 2025,
+    "estado": "Em construção",
+    "link": "https://tstn.netlify.app/",
     "galeria": [{}]
   },
   {
@@ -23,6 +29,9 @@
     "nome": "AfonsoTips",
     "pic": "/laptop/laptop3.png",
     "tipo": "projeto",
+    "ano": 2025,
+    "estado": "Em construção",
+    "link": "https://afonsotips.netlify.app/",
     "galeria": [{}]
   },
   {
@@ -30,6 +39,9 @@
     "nome": "Grandhouse",
     "pic": "/laptop/laptop4.png",
     "tipo": "pratica",
+    "ano": 2023,
+    "estado": "Incompleto",
+    "link": "https://grandhouse.netlify.app/",
     "galeria": [{}]
   },
   {
@@ -37,6 +49,9 @@
     "nome": "Katybraids",
     "pic": "/laptop/laptop5.png",
     "tipo": "trabalho",
+    "ano": 2025,
+    "estado": "Completo",
+    "link": "https://kattyhair.netlify.app/",
     "galeria": [{}]
   },
   {
@@ -44,6 +59,9 @@
     "nome": "LaFamilia",
     "pic": "/laptop/laptop6.png",
     "tipo": "projeto",
+    "ano": 2025,
+    "estado": "Completo",
+    "link": "https://restaurantlafamilia.netlify.app/",
     "galeria": [{}]
   },
   {
@@ -51,6 +69,9 @@
     "nome": "Bibicloset",
     "pic": "/laptop/laptop7.png",
     "tipo": "trabalho",
+    "ano": 2025,
+    "estado": "Em construção",
+    "link": "https://bibidemo.netlify.app/",
     "galeria": [{}]
   },
   {
@@ -58,13 +79,38 @@
     "nome": "Portfolio",
     "pic": "/laptop/laptop8.png",
     "tipo": "pratica",
+    "ano": 2025,
+    "estado": "Completo",
     "galeria": [{}]
   },
   {
     "id": 8,
-    "nome": "Titidoçuras",
+    "nome": "Instacopy",
     "pic": "/laptop/laptop9.png",
+    "tipo": "pratica",
+    "ano": 2023,
+    "estado": "Incompleto",
+    "link": "https://copy-insta.netlify.app/",
+    "galeria": [{}]
+  },
+  {
+    "id": 9,
+    "nome": "EuriSurpresas",
+    "pic": "/laptop/laptop10.png",
     "tipo": "trabalho",
+    "ano": 2023,
+    "estado": "Completo",
+    "link": "https://eurisurpresas.netlify.app/",
+    "galeria": [{}]
+  },
+  {
+    "id": 10,
+    "nome": "Titidoçuras",
+    "pic": "/laptop/laptop11.png",
+    "tipo": "trabalho",
+    "ano": 2024,
+    "estado": "Completo",
+    "link": "https://titidocuras.netlify.app/",
     "galeria": [{}]
   }
 ]

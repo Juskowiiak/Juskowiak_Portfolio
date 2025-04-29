@@ -198,7 +198,7 @@ export const TelaCardInfoContainer = styled.div`
   z-index: 2;
   border-radius: 20px;
   display: flex;
-  padding: 2.5rem 2rem 2rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
   background-color: var(--dark-blue1);
   &::after {
     position: absolute;
@@ -214,11 +214,22 @@ export const TelaCardInfoContainer = styled.div`
     border: 1px solid orange;
     width: 94%;
     position: absolute;
+    z-index: 2;
     top: 2%;
     left: 50%;
     transform: translateX(-50%);
     padding: 5px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .i {
+      color: var(--cinza-blue1);
+      font-size: 1.2rem;
+    }
+    .close {
+      cursor: pointer;
+      font-size: 1.3rem;
+    }
   }
 `;
 

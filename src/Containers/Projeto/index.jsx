@@ -32,11 +32,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 // import required modules
 import { Navigation } from "swiper/modules";
+//import icons
+import { IoClose } from "react-icons/io5";
+import { FaFolderOpen } from "react-icons/fa";
 
 export default function Projeto() {
   //mapear todos os projetos, filtrar objeto selecionado
   const [projetos, setProjetos] = useState(Laptops);
   const [selecionado, setSelecionado] = useState(Laptops);
+  const [cardInfo, setCardInfo] = useState(false);
 
   //trocar categoria pratica/projeto/trabalho
   function recebeOpcao(tipo) {
@@ -47,6 +51,14 @@ export default function Projeto() {
   function lerDescricao(projeto) {
     const procura = Laptops.filter((item) => item.id == projeto);
     setSelecionado(procura);
+    if (!cardInfo) {
+      setCardInfo(!cardInfo);
+    }
+  }
+  function fecharCard() {
+    if (cardInfo) {
+      setCardInfo(!cardInfo);
+    }
   }
   return (
     <Container>
@@ -83,10 +95,13 @@ export default function Projeto() {
               </TelaCard>
             ))}
           </Tela>
-          <TelaCardInfo>
+          <TelaCardInfo style={{ display: cardInfo ? "flex" : "none" }}>
             {selecionado.map((item, index) => (
               <TelaCardInfoContainer key={index}>
-                <div className="spec"></div>
+                <div className="spec">
+                  <FaFolderOpen className="i" />
+                  <IoClose className="i close" onClick={() => fecharCard()} />
+                </div>
                 <TelaCardInfoContainerPicture>
                   <Swiper
                     navigation={true}

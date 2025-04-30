@@ -190,6 +190,9 @@ export const About = styled.div`
 export const Skill = styled.ul`
   display: flex;
   gap: 1rem;
+  @media ${breakpoints.ml} {
+    justify-content: center;
+  }
   @media ${breakpoints.xs} {
     gap: 0.5rem;
   }

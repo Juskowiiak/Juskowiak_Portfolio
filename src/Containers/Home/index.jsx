@@ -34,17 +34,29 @@ export default function Home() {
       </Me>
       <Media>
         <MediaIcon>
-          <a href="#" target="_blank" title="Github">
+          <a
+            href="https://github.com/Juskowiiak"
+            target="_blank"
+            title="Github"
+          >
             <FiGithub className="i" />
           </a>
         </MediaIcon>
         <MediaIcon>
-          <a href="#" target="_blank" title="Linkedin">
+          <a
+            href="https://www.linkedin.com/in/juskowiak-afonso-36a0b6201/"
+            target="_blank"
+            title="Linkedin"
+          >
             <CiLinkedin className="i" />
           </a>
         </MediaIcon>
         <MediaIcon>
-          <a href="#" target="_blank" title="Youtube">
+          <a
+            href="https://www.youtube.com/@AfonsoTips"
+            target="_blank"
+            title="Youtube"
+          >
             <AiOutlineYoutube className="i" />
           </a>
         </MediaIcon>

@@ -236,6 +236,7 @@ export const TelaCardInfo = styled.div`
   position: absolute;
   z-index: 8;
   background-color: transparent;
+  backdrop-filter: blur(6px);
   display: flex;
   justify-content: center;
   align-items: center;

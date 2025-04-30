@@ -6,7 +6,6 @@ import breakpoints from "../../Style/breakpoints";
 export const Container = styled.div`
   position: fixed;
   z-index: 5;
-  border: 2px solid var(--cinza-blue4);
   display: flex;
   align-items: center;
   justify-content: space-between;

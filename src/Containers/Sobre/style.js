@@ -118,7 +118,6 @@ export const Picture = styled.div`
   }
   @media ${breakpoints.xs} {
     width: 75%;
-    height: 265px;
   }
 `;
 

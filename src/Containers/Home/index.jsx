@@ -1,5 +1,4 @@
 import {
-  Barra,
   Container,
   HomeTitle,
   Logo,
@@ -62,7 +61,6 @@ export default function Home() {
         </MediaIcon>
       </Media>
       <MainVideo />
-      <Barra />
     </Container>
   );
 }

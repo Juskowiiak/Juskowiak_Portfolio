@@ -14,10 +14,10 @@ export default function Navegador() {
           <Link to={"#home"}>Home </Link>
         </MenuCard>
         <MenuCard>
-          <Link to={"#sobre"}>Sobre </Link>
+          <Link to={"#about"}>Sobre </Link>
         </MenuCard>
         <MenuCard>
-          <Link to={"#projeto"}>Projetos </Link>
+          <Link to={"#project"}>Projetos </Link>
         </MenuCard>
       </Menu>
     </Container>

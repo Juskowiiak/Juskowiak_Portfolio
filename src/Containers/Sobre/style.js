@@ -1,6 +1,7 @@
 import styled from "styled-components";
 //importar style
 import "../../Style/style.css";
+import breakpoints from "../../Style/breakpoints";
 
 //___________________________VARIAVEIS____________________________
 const box1 = `
@@ -42,6 +43,14 @@ export const Info = styled.div`
   z-index: 1;
   display: flex;
   justify-content: space-evenly;
+  @media ${breakpoints.ml} {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  @media ${breakpoints.s} {
+    gap: 3.5rem;
+  }
 `;
 
 //_______________________________PICTURE__________________________________
@@ -95,7 +104,21 @@ export const Picture = styled.div`
     p {
       color: var(--cinza-blue1);
       font-family: var(--letra-2);
+      @media ${breakpoints.xs} {
+        font-size: 0.9rem;
+      }
     }
+  }
+  @media ${breakpoints.ml} {
+    width: 360px;
+  }
+  @media ${breakpoints.s} {
+    width: 280px;
+    height: 280px;
+  }
+  @media ${breakpoints.xs} {
+    width: 75%;
+    height: 265px;
   }
 `;
 
@@ -105,6 +128,10 @@ export const Photo = styled.div`
   position: relative;
   z-index: 1;
   margin-bottom: 1rem;
+  @media ${breakpoints.s} {
+    height: 100%;
+    max-height: 200px;
+  }
 `;
 //____________________________TEXT__________________________________
 
@@ -123,6 +150,13 @@ export const Text = styled.div`
     ${box2}
     opacity: 0.1;
   }
+  @media ${breakpoints.ml} {
+    width: 85%;
+    padding: 1rem;
+  }
+  @media ${breakpoints.s} {
+    width: 95%;
+  }
 `;
 
 export const About = styled.div`
@@ -130,11 +164,24 @@ export const About = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  margin-bottom: 4cqw;
+  margin-bottom: 4rem;
   p {
     font-family: var(--letra-1);
     color: var(--cinza-blue1);
     font-size: 1.2rem;
+    @media ${breakpoints.s} {
+      font-size: 1rem;
+    }
+    @media ${breakpoints.xs} {
+      font-size: 85%;
+    }
+  }
+  @media ${breakpoints.ml} {
+    width: 100%;
+    text-align: center;
+  }
+  @media ${breakpoints.s} {
+    margin-bottom: 2.5rem;
   }
 `;
 
@@ -143,6 +190,9 @@ export const About = styled.div`
 export const Skill = styled.ul`
   display: flex;
   gap: 1rem;
+  @media ${breakpoints.xs} {
+    gap: 0.5rem;
+  }
 `;
 
 export const SkillCard = styled.li`
@@ -162,5 +212,9 @@ export const SkillCard = styled.li`
     left: 0;
     ${box1};
     opacity: 0.1;
+  }
+  @media ${breakpoints.xs} {
+    width: 30px;
+    height: 30px;
   }
 `;

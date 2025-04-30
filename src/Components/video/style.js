@@ -1,6 +1,7 @@
 import styled from "styled-components";
 //importar style
 import "../../Style/style.css";
+import breakpoints from "../../Style/breakpoints";
 
 export const Container = styled.div`
   position: absolute;
@@ -25,6 +26,9 @@ export const Container = styled.div`
     object-fit: cover;
     position: 50% 50%;
   }
+  @media ${breakpoints.xs} {
+    height: 100vh;
+  }
 `;
 
 export const Media1 = styled.div`
@@ -33,6 +37,9 @@ export const Media1 = styled.div`
   height: 110vh;
   top: 0;
   left: 0;
+  @media ${breakpoints.xs} {
+    height: 100%;
+  }
 `;
 
 export const Media2 = styled.div`

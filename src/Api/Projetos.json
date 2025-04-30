@@ -7,7 +7,7 @@
     "ano": 2025,
     "estado": "Completo",
     "cor": "greenyellow",
-    "link": "nnehair.netlify.app",
+    "link": "https://lorannehair.netlify.app/",
     "descrição": "Pratica - Criei esta página com intenção de testar a minha criatividade, apenas isso ...",
     "galeria": [
       { "id": 0, "pic": "/projetos/wallpaper/a1.png" },
@@ -16,9 +16,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/a4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p6.png" },
-      { "id": 2, "pic": "/projetos/logo/p7.png" }
+      { "id": 0, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 1, "pic": "/projetos/logo/p6.png", "nome": "React" },
+      { "id": 2, "pic": "/projetos/logo/p7.png", "nome": "Styled-Components" }
     ]
   },
   {
@@ -38,8 +38,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/b4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p5.png" }
+      { "id": 0, "pic": "/projetos/logo/p2.png", "nome": "Css" },
+      { "id": 1, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 2, "pic": "/projetos/logo/p5.png", "nome": "Bootstrap" }
     ]
   },
   {
@@ -59,9 +60,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/c4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p6.png" },
-      { "id": 2, "pic": "/projetos/logo/p7.png" }
+      { "id": 0, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 1, "pic": "/projetos/logo/p6.png", "nome": "React" },
+      { "id": 2, "pic": "/projetos/logo/p7.png", "nome": "Styled-Components" }
     ]
   },
   {
@@ -81,8 +82,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/d4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p4.png" }
+      { "id": 0, "pic": "/projetos/logo/p1.png", "nome": "Html" },
+      { "id": 1, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 2, "pic": "/projetos/logo/p4.png", "nome": "Sass" }
     ]
   },
   {
@@ -102,9 +104,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/e4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p6.png" },
-      { "id": 2, "pic": "/projetos/logo/p7.png" }
+      { "id": 0, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 1, "pic": "/projetos/logo/p6.png", "nome": "react" },
+      { "id": 2, "pic": "/projetos/logo/p7.png", "nome": "Styled-Components" }
     ]
   },
   {
@@ -124,9 +126,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/f4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p6.png" },
-      { "id": 2, "pic": "/projetos/logo/p7.png" }
+      { "id": 0, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 1, "pic": "/projetos/logo/p6.png", "nome": "React" },
+      { "id": 2, "pic": "/projetos/logo/p7.png", "nome": "Styled-Components" }
     ]
   },
   {
@@ -146,9 +148,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/h4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p6.png" },
-      { "id": 2, "pic": "/projetos/logo/p7.png" }
+      { "id": 0, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 1, "pic": "/projetos/logo/p6.png", "nome": "React" },
+      { "id": 2, "pic": "/projetos/logo/p7.png", "nome": "Styled-Components" }
     ]
   },
   {
@@ -168,9 +170,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/g4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p6.png" },
-      { "id": 2, "pic": "/projetos/logo/p7.png" }
+      { "id": 0, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 1, "pic": "/projetos/logo/p6.png", "nome": "React" },
+      { "id": 2, "pic": "/projetos/logo/p7.png", "nome": "Styled-Components" }
     ]
   },
   {
@@ -190,8 +192,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/j4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p4.png" }
+      { "id": 0, "pic": "/projetos/logo/p1.png", "nome": "Html" },
+      { "id": 1, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 2, "pic": "/projetos/logo/p4.png", "nome": "Sass" }
     ]
   },
   {
@@ -211,9 +214,9 @@
       { "id": 3, "pic": "/projetos/wallpaper/i4.png" }
     ],
     "lingua": [
-      { "id": 0, "pic": "/projetos/logo/p3.png" },
-      { "id": 1, "pic": "/projetos/logo/p6.png" },
-      { "id": 2, "pic": "/projetos/logo/p7.png" }
+      { "id": 0, "pic": "/projetos/logo/p1.png", "nome": "Html" },
+      { "id": 1, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 2, "pic": "/projetos/logo/p4.png", "nome": "Sass" }
     ]
   },
   {
@@ -226,6 +229,11 @@
     "cor": "greenyellow",
     "link": "https://titidocuras.netlify.app/",
     "descrição": "Negócio - Não sabes o que estás a perder :D .",
-    "galeria": [{ "id": 0, "pic": "/projetos/wallpaper/k1.png" }]
+    "galeria": [{ "id": 0, "pic": "/projetos/wallpaper/k1.png" }],
+    "lingua": [
+      { "id": 0, "pic": "/projetos/logo/p1.png", "nome": "Html" },
+      { "id": 1, "pic": "/projetos/logo/p3.png", "nome": "Javascript" },
+      { "id": 2, "pic": "/projetos/logo/p4.png", "nome": "Sass" }
+    ]
   }
 ]

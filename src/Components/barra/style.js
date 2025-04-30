@@ -1,6 +1,7 @@
 import styled from "styled-components";
 //importar style
 import "../../Style/style.css";
+import breakpoints from "../../Style/breakpoints";
 
 export const Divisor = styled.div`
   height: 165px;
@@ -21,6 +22,9 @@ export const Divisor = styled.div`
     transform: translateX(-50%);
     border-radius: 50%;
     box-shadow: 0px -40px 90px var(--cinza-blue2);
+    @media ${breakpoints.s} {
+      width: 40%;
+    }
   }
   &::before {
     position: absolute;
@@ -33,5 +37,12 @@ export const Divisor = styled.div`
     border-radius: 50%;
     background-color: var(--cinza-blue3);
     opacity: 0.25;
+    @media ${breakpoints.s} {
+      width: 80%;
+      height: 2.5px;
+    }
+  }
+  @media ${breakpoints.m} {
+    margin-top: 10rem;
   }
 `;

@@ -24,13 +24,13 @@ import { Divisor } from "../../Components/barra/style";
 
 export default function Sobre() {
   return (
-    <Container>
+    <Container id="about">
       <SubTitleContainer>
         <FaUser className="icon" />
-        <SubText>INTRODUÇÃO</SubText>
+        <SubText>Introdução</SubText>
       </SubTitleContainer>
       <TitleContainer>
-        <Maintext1>Um pouco sobre</Maintext1>
+        <Maintext1>Algum sobre</Maintext1>
         <Maintext2>mim</Maintext2>
       </TitleContainer>
       <Info>

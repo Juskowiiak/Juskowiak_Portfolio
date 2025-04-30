@@ -1,6 +1,7 @@
 import styled from "styled-components";
 //import style
 import "../../Style/style.css";
+import breakpoints from "../../Style/breakpoints.js";
 
 //___________________________VARIAVEIS____________________________
 const box1 = `
@@ -32,6 +33,9 @@ export const Container = styled.div`
   align-items: center;
   padding-top: 25vh;
   background-color: var(--dark-blue1);
+  @media ${breakpoints.s} {
+    padding-top: 15vh;
+  }
 `;
 
 export const Info = styled.div`
@@ -55,6 +59,12 @@ export const Info = styled.div`
     left: 0;
     ${box2}
     opacity:.1;
+  }
+  @media ${breakpoints.ml} {
+    width: 96%;
+  }
+  @media ${breakpoints.xs} {
+    gap: 1.5rem;
   }
 `;
 
@@ -97,6 +107,13 @@ export const OpcoesCard = styled.li`
     background-color: var(--dark-blue1);
     letter-spacing: 1.25px;
   }
+  @media ${breakpoints.s} {
+    width: 30%;
+    font-size: 0.9rem;
+  }
+  @media ${breakpoints.xs} {
+    font-size: 0.8rem;
+  }
 `;
 
 //______________________________________Painel__________________________________________
@@ -105,6 +122,18 @@ export const Painel = styled.div`
   padding-block: 1rem;
   width: 100%;
   position: relative;
+  .gear {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    bottom: -1%;
+    right: 0;
+    opacity: 0.05;
+    transform: rotate(180deg);
+    @media ${breakpoints.s} {
+      height: 70px;
+    }
+  }
 `;
 
 //___________________________________________TELA____________________________________
@@ -119,6 +148,12 @@ export const Tela = styled.ul`
   gap: 2rem 1rem;
   justify-content: space-evenly;
   padding-inline: 5px;
+  @media ${breakpoints.ml} {
+    grid-template-columns: repeat(auto-fit, 200px);
+  }
+  @media ${breakpoints.s} {
+    grid-template-columns: repeat(auto-fit, 45%);
+  }
 `;
 
 export const TelaCard = styled.ul`
@@ -154,10 +189,19 @@ export const TelaCard = styled.ul`
       max-height: 120px;
       width: auto;
       max-width: 100%;
+      @media ${breakpoints.ml} {
+      }
     }
   }
   h3 {
     margin-bottom: 2rem;
+    @media ${breakpoints.m} {
+      font-size: 0.9rem;
+    }
+    @media ${breakpoints.xs} {
+      font-size: 0.79rem;
+      margin-bottom: 1.5rem;
+    }
   }
   p {
     position: relative;
@@ -168,8 +212,18 @@ export const TelaCard = styled.ul`
     border-radius: 10px;
     display: inline-flex;
     transition: 0.5s;
+
     &:hover {
       background-color: var(--cinza-blue3);
+    }
+    @media ${breakpoints.m} {
+      font-size: 0.85rem;
+    }
+    @media ${breakpoints.xs} {
+      width: 85%;
+      font-size: 0.7rem;
+      padding-block: 0.5rem;
+      justify-content: center;
     }
   }
 `;
@@ -180,7 +234,7 @@ export const TelaCardInfo = styled.div`
   height: 100%;
   width: 100%;
   position: absolute;
-  z-index: 2;
+  z-index: 8;
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -190,16 +244,18 @@ export const TelaCardInfo = styled.div`
 `;
 
 export const TelaCardInfoContainer = styled.div`
-  border: 1px solid red;
   height: 460px;
   transition: 0.5s;
-  width: 85%;
+  width: 95%;
   position: absolute;
-  z-index: 2;
-  border-radius: 20px;
+  z-index: 8;
   display: flex;
   padding: 3rem 2rem 1rem 2rem;
   background-color: var(--dark-blue1);
+  transition: 0.7s;
+  border: 1px solid rgb(216, 231, 242, 0.2);
+  box-shadow: 0px 2px 1px 0px inset rgb(207, 231, 255, 0.2);
+  border-radius: 20px;
   &::after {
     position: absolute;
     content: "";
@@ -211,7 +267,6 @@ export const TelaCardInfoContainer = styled.div`
     opacity: 0.1;
   }
   .spec {
-    border: 1px solid orange;
     width: 94%;
     position: absolute;
     z-index: 2;
@@ -225,11 +280,27 @@ export const TelaCardInfoContainer = styled.div`
     .i {
       color: var(--cinza-blue1);
       font-size: 1.2rem;
+      @media ${breakpoints.xs} {
+        font-size: 1rem;
+      }
     }
     .close {
       cursor: pointer;
       font-size: 1.3rem;
     }
+  }
+  @media ${breakpoints.ml} {
+    width: 100%;
+    padding-inline: 0.5rem;
+    height: 360px;
+    justify-content: space-evenly;
+  }
+  @media ${breakpoints.m} {
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    gap: 1.8rem;
+    padding-top: 3.5rem;
   }
 `;
 
@@ -237,11 +308,10 @@ export const TelaCardInfoContainer = styled.div`
 export const TelaCardInfoContainerPicture = styled.div`
   position: relative;
   z-index: 2;
-  border: 1px solid yellow;
   width: 60%;
   height: 100%;
+  transition: 0.5s;
   .swiper {
-    border: 1px solid red;
     width: 100%;
     height: 100%;
   }
@@ -257,13 +327,35 @@ export const TelaCardInfoContainerPicture = styled.div`
     color: var(--cinza-blue3);
     width: 30px;
   }
+  @media ${breakpoints.ml} {
+    width: 50%;
+  }
+  @media ${breakpoints.m} {
+    width: 320px;
+  }
+  @media ${breakpoints.xs} {
+    width: 90%;
+    height: 280px;
+  }
+  @media ${breakpoints.xxs} {
+    width: 90%;
+    height: 230px;
+  }
 `;
 
 //_______________________________CONTAINER TEXT-INFO______________________________________
 export const TelaCardInfoContainerInfo = styled.div`
   position: relative;
   z-index: 2;
-  border: 1px solid blue;
   width: 40%;
   padding-inline: 1rem;
+  @media ${breakpoints.ml} {
+    overflow-y: scroll;
+    padding-inline: 0;
+  }
+  @media ${breakpoints.ml} {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+  }
 `;

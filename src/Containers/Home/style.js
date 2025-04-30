@@ -1,6 +1,7 @@
 import styled from "styled-components";
 //import styles
 import "../../Style/style.css";
+import breakpoints from "../../Style/breakpoints";
 
 export const Container = styled.div`
   position: relative;
@@ -14,6 +15,9 @@ export const Container = styled.div`
   align-items: center;
   padding-top: 20vh;
   padding-bottom: 1rem;
+  @media ${breakpoints.xs} {
+    padding-top: 12vh;
+  }
 `;
 
 //__________________________________LOGO________________________________________
@@ -29,8 +33,11 @@ export const Logobox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(182deg, rgba(8, 9, 10, 1), rgba(16, 19, 28, 1));
+  background: linear-gradient(182deg, rgb(25, 28, 31), rgb(38, 44, 63));
   box-shadow: 0px 3px 5px rgba(60, 121, 173, 0.37);
+  @media ${breakpoints.xxs} {
+    margin-bottom: 6rem;
+  }
 `;
 
 export const Logo = styled.div`
@@ -72,6 +79,7 @@ export const HomeTitle = styled.h1`
   font-family: var(--letra-1);
   font-weight: 600;
   font-size: 3.6rem;
+  transition: 0.5s;
   background: linear-gradient(
     360deg,
     var(--cinza-blue1) 42%,
@@ -79,6 +87,23 @@ export const HomeTitle = styled.h1`
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media ${breakpoints.ml} {
+    font-size: 2.8rem;
+  }
+  @media ${breakpoints.m} {
+    width: 400px;
+    text-align: center;
+  }
+  @media ${breakpoints.s} {
+    font-size: 2.1rem;
+  }
+  @media ${breakpoints.xs} {
+    font-size: 1.6rem;
+    width: 300px;
+  }
+  @media ${breakpoints.xxs} {
+    font-size: 1.4rem;
+  }
 `;
 
 //________________________________ME__________________________________________
@@ -94,6 +119,12 @@ export const Me = styled.div`
     font-family: var(--letra-2);
     color: var(--cinza-blue1);
     font-size: 1.2rem;
+    @media ${breakpoints.xs} {
+      font-size: 1rem;
+    }
+  }
+  @media ${breakpoints.xs} {
+    margin-block: 3rem 6rem;
   }
 `;
 
@@ -146,6 +177,9 @@ export const MediaIcon = styled.li`
     display: flex;
     justify-content: center;
     align-items: center;
+    @media ${breakpoints.xs} {
+      font-size: 1.45rem;
+    }
   }
 
   &:not(:last-child) {

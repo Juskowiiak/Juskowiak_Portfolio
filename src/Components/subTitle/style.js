@@ -1,5 +1,7 @@
 import styled from "styled-components";
+//importar style
 import "../../Style/style.css";
+import breakpoints from "../../Style/breakpoints";
 
 export const SubTitleContainer = styled.div`
   border: 1px solid var(--cinza-blue2);
@@ -13,6 +15,9 @@ export const SubTitleContainer = styled.div`
   .icon {
     color: var(--cinza-blue1);
     font-size: 0.9rem;
+  }
+  @media ${breakpoints.xs} {
+    margin-bottom: 0.8rem;
   }
 `;
 

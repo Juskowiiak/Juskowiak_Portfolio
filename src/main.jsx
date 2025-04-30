@@ -6,6 +6,7 @@ import Navegador from "./Containers/Navegador";
 import Sobre from "./Containers/Sobre";
 import { BrowserRouter } from "react-router-dom";
 import Projeto from "./Containers/Projeto";
+import Footer from "./Containers/Footer";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Styleglobal />
@@ -14,6 +15,7 @@ createRoot(document.getElementById("root")).render(
       <Home />
       <Sobre />
       <Projeto />
+      <Footer />
     </BrowserRouter>
   </StrictMode>
 );

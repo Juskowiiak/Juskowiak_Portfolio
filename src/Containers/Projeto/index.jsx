@@ -35,10 +35,12 @@ import { Navigation } from "swiper/modules";
 //import icons
 import { IoClose } from "react-icons/io5";
 import { FaFolderOpen } from "react-icons/fa";
+import gear from "../../assets/media/gear.gif";
 import {
   Data,
   Descricao,
   Linguagem,
+  LinguagemCard,
   ProjLink,
   ProjText,
   Status,
@@ -78,7 +80,7 @@ export default function Projeto() {
         <GrProjects className="icon" />
         <SubText>Front-End</SubText>
       </SubTitleContainer>
-      <TitleContainer>
+      <TitleContainer id="project">
         <Maintext1>O que eu</Maintext1>
         <Maintext2>faço</Maintext2>
       </TitleContainer>
@@ -149,17 +151,25 @@ export default function Projeto() {
                   </ProjText>
                   <ProjLink>
                     <Linguagem>
-                      
+                      {item.lingua.map((linguagem, index) => (
+                        <LinguagemCard key={index} title={linguagem.nome}>
+                          <img src={linguagem.pic} />
+                        </LinguagemCard>
+                      ))}
                     </Linguagem>
-                    <Web></Web>
+                    <a href={item.link} target="_blank" title={item.link}>
+                      <Web>Entrar</Web>
+                    </a>
                   </ProjLink>
                 </TelaCardInfoContainerInfo>
               </TelaCardInfoContainer>
             ))}
           </TelaCardInfo>
+          <div className="gear">
+            <img src={gear} />
+          </div>
         </Painel>
       </Info>
-
       <Divisor />
     </Container>
   );

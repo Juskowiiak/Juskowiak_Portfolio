@@ -35,6 +35,7 @@ import { Navigation } from "swiper/modules";
 //import icons
 import { IoClose } from "react-icons/io5";
 import { FaFolderOpen } from "react-icons/fa";
+import { IoIosArrowRoundDown } from "react-icons/io";
 import gear from "../../assets/media/gear.gif";
 import {
   Data,
@@ -148,6 +149,7 @@ export default function Projeto() {
                     <Descricao>
                       <p>{item.descrição}</p>
                     </Descricao>
+                    <IoIosArrowRoundDown className="seta" />
                   </ProjText>
                   <ProjLink>
                     <Linguagem>

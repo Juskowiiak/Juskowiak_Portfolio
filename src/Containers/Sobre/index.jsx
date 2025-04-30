@@ -30,7 +30,7 @@ export default function Sobre() {
         <SubText>Introdução</SubText>
       </SubTitleContainer>
       <TitleContainer>
-        <Maintext1>Algum sobre</Maintext1>
+        <Maintext1>Um pouco sobre</Maintext1>
         <Maintext2>mim</Maintext2>
       </TitleContainer>
       <Info>

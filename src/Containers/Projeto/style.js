@@ -65,6 +65,7 @@ export const Info = styled.div`
   }
   @media ${breakpoints.xs} {
     gap: 1.5rem;
+    width: 98%;
   }
 `;
 

@@ -82,8 +82,8 @@ export const HomeTitle = styled.h1`
   transition: 0.5s;
   background: linear-gradient(
     360deg,
-    var(--cinza-blue1) 42%,
-    var(--dark-blue1) 100%
+    var(--cinza-blue2) 48%,
+    var(--cinza-blue1) 100%
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;

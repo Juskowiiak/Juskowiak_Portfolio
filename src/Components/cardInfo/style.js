@@ -18,12 +18,25 @@ export const Titulo = styled.h3`
 //________________________________________________________
 
 export const ProjText = styled.div`
+  position: relative;
+  z-index: 3;
   margin-block: 1.5rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   @media ${breakpoints.ml} {
     align-items: center;
+  }
+  .seta {
+    display: none;
+    @media ${breakpoints.s} {
+      display: flex;
+      color: var(--cinza-blue1);
+      position: absolute;
+      top: 25%;
+      left: 0;
+      opacity: 0.5;
+    }
   }
 `;
 

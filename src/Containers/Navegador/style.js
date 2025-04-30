@@ -24,7 +24,7 @@ export const Container = styled.div`
     left: 0;
     top: 0;
     background-color: var(--darkblueblack);
-    opacity: 0.7;
+    opacity: 0.85;
   }
   .abrir {
     top: 10vh;
